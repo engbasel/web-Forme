@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Forme</title>
+    <style>
+      .Head_bar {
+        background-color: antiquewhite;
+        text-align: center;
+        border-radius: 25px;
+        border-width: 100px;
+      }
+      .First_name {
+        color: rgb(202, 3, 33);
+        display: inline;
+        padding-right: 85px;
+      }
+      .scound_name {
+        display: inline;
+        color: rgb(43, 163, 57);
+        padding-right: 89px;
+      }
+      .first {
+        display: inline;
+      }
+      .scound {
+        display: inline;
+        /* padding-right: 100px; */
+      }
+      .main_div {
+        text-align: center;
+      }
+      .mail {
+        padding-right: 300px;
+      }
+      .mail_faild {
+        padding-right: 175px;
+      }
+      .bass_Text {
+        padding: 105px;
+        display: inline;
+      }
+      .confirm_pass {
+        padding-right: 80px;
+        display: inline;
+      }
+      .pass_input {
+        display: inline;
+      }
+      .confairm_pass_input {
+        display: inline;
+      }
+      .GEnder {
+        display: inline;
+
+        padding-right: 290px;
+      }
+
+      .name_input {
+        padding-right: 85px;
+        display: inline;
+      }
+      .hope {
+        display: inline;
+      }
+      .checkboxs {
+        display: inline;
+      }
+      .all_elemant {
+        padding-left: 75px;
+      }
+      .sorce_input {
+        padding-left: 100px;
+        display: inline;
+      }
+      .sorce {
+        padding-left: 177px;
+        display: inline;
+      }
+      .range {
+        display: inline;
+      }
+      .select {
+        display: inline;
+      }
+      .VARIBALS {
+        padding-left: 100px;
+      }
+      .select {
+        padding-left: 100px;
+      }
+      .DETA {
+        display: inline;
+        padding-right: 10px;
+      }
+      .AGE {
+        display: inline;
+        padding-right: 10px;
+      }
+      .BIO {
+        padding-right: 335px;
+      }
+      .textarea {
+        padding-right: 122px;
+      }
+      .requared {
+        padding-right: 200px;
+        display: inline;
+      }
+
+      .creat {
+        background-color: bisque;
+        display: inline;
+        /* padding-right: 100px; */
+        background-size: 10px;
+      }
+      .last {
+        padding-top: 10px;
+        padding-left: 140px;
+        /* padding: 10px; */
+      }
+      .main_div {
+        background-color: rgb(48, 93, 114);
+        position: absolute;
+        /* top: 50%; */
+        /* bottom: 50%; */
+        top: 5%;
+        left: 25%;
+        box-shadow: 5px 5px 5px 5px rgb(24, 10, 69);
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(15, 15, 13);
+        width: fit-content;
+        text-align: center;
+      }
+      .last_elemant {
+        padding-left: 110px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main_div">
+      <div class="Head_bar">Creat New Account</div>
+      <hr />
+      <form>
+        <div>
+          <div class="First_name"><label for="bb">First name*</label></div>
+          <div class="scound_name"><label for="aa">scound name*</label></div>
+        </div>
+
+        <!-- <div>
+            <div class="First_name">First name*</div>
+            <div class="scound_name">scound name*</div>
+          </div> -->
+        <div>
+          <div class="first"><input id="bb" type="text" /></div>
+          <div class="scound"><input id="aa" type="text" /></div>
+        </div>
+        <br />
+        <label class="mail" for="Email">Email</label>
+        <div class="mail_faild">
+          <input id="Email" type="email" />
+        </div>
+        <br />
+        <!-- <hr /> -->
+        <!-- next div all password elemant -->
+        <div>
+          <!-- Labels password -->
+          <div>
+            <div class="bass_Text">
+              <label for="pass">bassword</label>
+            </div>
+            <div class="confirm_pass">
+              <label for="confairm_pass">confairm bassword*</label>
+            </div>
+          </div>
+          <!-- inputes password -->
+          <div>
+            <div class="pass_input"><input id="pass" type="password" /></div>
+            <div class="confairm_pass_input">
+              <input id="confairm_pass" type="password" />
+            </div>
+          </div>
+        </div>
+        <br />
+        <div>
+          <div class="GEnder">Gender</div>
+          <div class="hope">hobess</div>
+        </div>
+        <div class="all_elemant">
+          <div class="name_input">
+            <label class="male" for="male">male</label>
+            <input name="Geneder" id="male" type="radio" />
+            <label class="male" for="femal">femal</label>
+            <input name="Geneder" id="femal" type="radio" />
+          </div>
+          <div class="checkboxs">
+            <label for="MOVIS">MOVIS</label>
+            <input id="MOVIS" type="checkbox" />
+            <label for="Music">Music</label>
+            <input id="Music" type="checkbox" />
+            <label for="Traver">Traver</label>
+            <input id="Traver" type="checkbox" />
+            <label for="Sports">Sports</label>
+            <input id="Sports" type="checkbox" />
+          </div>
+        </div>
+        <br />
+        <!-- <hr /> -->
+        <div class="input_Text">
+          <div class="sorce_input">Income</div>
+          <div class="sorce">sorce Income</div>
+        </div>
+        <div class="VARIBALS">
+          <div class="range"><input type="range" /></div>
+          50k
+          <div class="select">
+            <select name="" id="">
+              <option value="">basev</option>
+              <option value="">trader</option>
+              <option value="">employ</option>
+            </select>
+          </div>
+        </div>
+        <!-- <hr /> -->
+        <br />
+        <div class="DETA_AGE">
+          <div class="DETA">
+            <label for="">Upload data</label>
+            <input type="file" />
+          </div>
+          <div class="AGE">
+            <label for=""> Age </label>
+            <input min="10" max="150" type="number" /> Years
+          </div>
+        </div>
+        <br />
+        <div class="last_elemant">
+          <div class="BIO">BIO</div>
+          <!-- <div class="textarea"><input type="text" /></div> -->
+          <div class="textarea">
+            <textarea name="" id="" cols="30" rows="10"> </textarea>
+          </div>
+        </div>
+      </form>
+      <div class="last">
+        <div class="creat">Creat</div>
+        <div class="requared">*requared</div>
+      </div>
+      <br />
+    </div>
+  </body>
+</html>
